@@ -23,16 +23,16 @@
    - Automatically re-tints particle and mesh lighting when switching themes.
    - GPU-optimized (pauses rendering when browser tab is inactive to preserve battery).
 
-3. **Curated Showcase of Your Real Projects**
-   - Displays all 7 actual project screenshots from your `assets/img/portfolio/` folder:
-     - 🛍️ **Modern E-Commerce Storefront** (Dynamic cart, category filtering)
-     - ⚡ **Tailwind CSS SaaS Landing Page** (High-conversion responsive design)
-     - 🧭 **Interactive Navigation Architecture** (Multi-tier dropdowns, mobile drawer)
-     - 🎵 **Multimedia Streaming Player** (Dark UI, audio player controls)
-     - 🏢 **Enterprise Multi-Section Portal Layout** (Scalable data architecture)
-     - 💻 **Interactive Client Showcase Demo** (Real-time form & UI states)
-     - 📐 **CSS Box Model Visualizer** (Interactive layout geometry tool)
-   - Category filtering (`All`, `E-Commerce & SaaS`, `Web Applications`, `UI/UX & Components`).
+3. **Curated Showcase of Your 4 Core Flagship Projects**
+   - 🏢 **Nexora Business Commerce & Portfolio** (`bussiness protfolio`):
+     - Enterprise Next.js 14 (App Router) commerce platform with TypeScript, Three.js 3D hero, GSAP, and B2B corporate authentication portal.
+   - 🛍️ **E-Shope Modern Digital Marketplace** (`e-shop`):
+     - Full-featured React 18 & Vite online store with dynamic category routing, sliding cart drawer, modal previews, and Lucide React icons.
+   - 🕶️ **SOLARA — Luxury Sunglasses Atelier** (`solara luxury sunglasses project`):
+     - High-fashion luxury eyewear brand website with handcrafted bio-acetate frames, polarized lens specs, custom color pickers, and VIP concierge.
+   - ⚡ **Shopping Hub — REST API CRUD Application** (`CRUD project`):
+     - Full-stack style CRUD web application powered by React 19, Axios, and Bootstrap 5.3 with live DummyJSON REST API data fetching, Create (POST), Read (GET), and Delete (DELETE) operations with state synchronization.
+   - Category filtering (`All Projects`, `Next.js & Business`, `React E-Commerce`, `Luxury Eyewear`, `CRUD & REST API`).
    - 3D perspective card tilt on hover.
    - GLightbox integration for full-resolution screenshot zoom.
 

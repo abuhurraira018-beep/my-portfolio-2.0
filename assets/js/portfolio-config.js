@@ -23,21 +23,21 @@ const PORTFOLIO_CONFIG = {
     fullName: "Abu Hurraira",
     firstName: "Abu",
     lastName: "Hurraira",
-    tagline: "Creative Frontend Engineer & 3D Web Specialist",
+    tagline: "Creative Frontend & React/Next.js Engineer | 3D Web Specialist",
     
     // 💡 HINT: Put your profile picture inside assets/img/ and write its name here:
     profileImage: "assets/img/my-profile-img.jpg",
     
-    // 💡 HINT: Hero background image (optional)
+    // 💡 HINT: Hero background image
     heroBackground: "assets/img/hero-bg.jpg",
     
     // Typing animation words in Hero section
     typedRoles: [
-      "Creative Frontend Developer",
-      "UI/UX Designer",
-      "3D Web Experience Creator",
-      "Software Engineering Student",
-      "Modern Web Architect"
+      "React & Next.js Developer",
+      "Full CRUD API Specialist",
+      "Creative UI/UX Designer",
+      "3D WebGL Experience Creator",
+      "Software Engineering Undergraduate"
     ],
     
     birthDate: "23 August 2006",
@@ -54,14 +54,14 @@ const PORTFOLIO_CONFIG = {
     freelanceStatus: "Available for Projects",
     
     // Bio summary
-    aboutSummary: "Dedicated and detail-oriented Frontend Engineer & Software Engineering student passionate about crafting high-performance, visually immersive, and user-centric web applications. Blending modern CSS architecture, interactive 3D WebGL experiences with Three.js, and clean JavaScript engineering to bring digital visions to life.",
+    aboutSummary: "Dedicated and detail-oriented Software Engineering student & Frontend Engineer specializing in Next.js, React, full RESTful CRUD API architectures, and interactive 3D WebGL experiences with Three.js. Proven track record building commercial business portfolios, dynamic e-commerce stores, and high-fashion luxury web applications.",
     
-    // Social media links (replace '#' with your real profiles when ready)
+    // Social media links
     socials: {
       github: "https://github.com/",
       linkedin: "https://linkedin.com/",
-      twitter: "https://twitter.com/",
-      facebook: "https://facebook.com/",
+      whatsapp: "https://wa.me/923464828835",
+      email: "mailto:abuhurraira018@gmail.com",
       instagram: "https://instagram.com/"
     }
   },
@@ -70,121 +70,81 @@ const PORTFOLIO_CONFIG = {
   // 📊 2. METRICS & COUNTERS
   // ------------------------------------------------------------------
   stats: [
-    { label: "Completed Projects", value: 12, icon: "bi-journal-code", suffix: "+" },
-    { label: "Hours of Coding", value: 850, icon: "bi-clock-history", suffix: "+" },
-    { label: "Happy Clients & Peers", value: 15, icon: "bi-emoji-smile", suffix: "+" },
-    { label: "Code Commits", value: 340, icon: "bi-git", suffix: "+" }
+    { label: "Completed Projects", value: 16, icon: "bi-journal-code", suffix: "+" },
+    { label: "Hours of Coding", value: 950, icon: "bi-clock-history", suffix: "+" },
+    { label: "Happy Clients & Peers", value: 20, icon: "bi-emoji-smile", suffix: "+" },
+    { label: "Code Commits", value: 420, icon: "bi-git", suffix: "+" }
   ],
 
   // ------------------------------------------------------------------
   // ⚡ 3. TECHNICAL SKILLS
   // ------------------------------------------------------------------
   skills: [
-    { name: "HTML5 & Semantic Web", level: 98, category: "frontend" },
-    { name: "CSS3 / Modern Layouts & Flexbox/Grid", level: 95, category: "frontend" },
-    { name: "JavaScript (ES6+ & DOM)", level: 90, category: "frontend" },
-    { name: "Bootstrap 5 & UI Frameworks", level: 92, category: "frameworks" },
-    { name: "Tailwind CSS", level: 88, category: "frameworks" },
-    { name: "Interactive 3D / Three.js & WebGL", level: 82, category: "creative" },
-    { name: "GSAP & ScrollTrigger Animations", level: 85, category: "creative" },
-    { name: "Responsive & Mobile-First Design", level: 95, category: "frontend" },
-    { name: "Git, GitHub & Version Control", level: 85, category: "tools" },
-    { name: "Microsoft Office Suite", level: 90, category: "tools" }
+    { name: "React.js (React 18 & 19)", level: 94, category: "frontend" },
+    { name: "Next.js (App Router Architecture)", level: 90, category: "frontend" },
+    { name: "Axios & RESTful CRUD API Operations", level: 92, category: "frontend" },
+    { name: "JavaScript (ES6+, Async/Await & DOM)", level: 92, category: "frontend" },
+    { name: "TypeScript & Type Safety", level: 85, category: "frontend" },
+    { name: "Tailwind CSS & Utility Design", level: 90, category: "frameworks" },
+    { name: "Bootstrap 5 & Responsive Layouts", level: 95, category: "frameworks" },
+    { name: "Three.js & Interactive 3D WebGL", level: 84, category: "creative" },
+    { name: "GSAP & ScrollTrigger Animations", level: 86, category: "creative" },
+    { name: "Git, GitHub & Version Control", level: 88, category: "tools" }
   ],
 
   // ------------------------------------------------------------------
-  // 🚀 4. PORTFOLIO SHOWCASE PROJECTS
-  // 💡 HINT: These reference the real screenshots in your assets/img/portfolio/ folder!
+  // 🚀 4. PORTFOLIO SHOWCASE PROJECTS (4 CORE FLAGSHIP PROJECTS)
   // ------------------------------------------------------------------
   projects: [
     {
-      id: "project-1",
-      title: "Modern E-Commerce Storefront",
-      category: "ecommerce",
-      categoryLabel: "E-Commerce & SaaS",
-      filterClass: "filter-ecommerce",
-      image: "assets/img/portfolio/screencapture-127-0-0-1-5500-wabsite-html-2026-03-04-11_17_37.png",
-      tagline: "Full-Featured Online Store with Dynamic Cart & Filter System",
-      description: "A comprehensive e-commerce user interface with interactive product filtering, product detail modals, live cart calculation, and responsive customer checkout flow.",
-      techStack: ["HTML5", "CSS3", "JavaScript", "Bootstrap 5"],
+      id: "project-business-portfolio",
+      title: "Nexora Business Commerce & Portfolio",
+      category: "nextjs",
+      categoryLabel: "Next.js & Full-Stack",
+      filterClass: "filter-nextjs",
+      image: "assets/img/portfolio/project-business.jpg",
+      tagline: "Enterprise Commercial Next.js Platform with 3D Visuals & Auth Portal",
+      description: "Flagship enterprise commerce and corporate portfolio built with Next.js 14 (App Router), TypeScript, Three.js 3D hero scene, and GSAP. Features corporate B2B and evaluator demo authentication gateways, dynamic hardware catalog, real-time stock alerts, reactive cart, and wishlist.",
+      techStack: ["Next.js 14", "React 18", "TypeScript", "Three.js", "GSAP", "Bootstrap 5"],
       demoUrl: "#",
       githubUrl: "#"
     },
     {
-      id: "project-2",
-      title: "Tailwind CSS SaaS Landing Page",
-      category: "apps",
-      categoryLabel: "Web Applications",
-      filterClass: "filter-apps",
-      image: "assets/img/portfolio/screencapture-127-0-0-1-5500-tailwind-html-2026-03-04-11_18_48.png",
-      tagline: "Modern Dark/Light Utility-Driven SaaS Marketing Experience",
-      description: "A high-conversion landing page engineered using utility-first Tailwind CSS principles. Features glassmorphism cards, micro-interactions, responsive hero grid, and pricing matrix.",
-      techStack: ["Tailwind CSS", "JavaScript", "HTML5", "Responsive Grid"],
+      id: "project-eshop",
+      title: "E-Shope Modern Digital Marketplace",
+      category: "react",
+      categoryLabel: "React E-Commerce",
+      filterClass: "filter-react",
+      image: "assets/img/portfolio/project-eshop.jpg",
+      tagline: "Full-Featured React & Vite Online Shopping Experience",
+      description: "Comprehensive e-commerce application developed with React, Vite, and React Router. Incorporates dynamic category routing, sliding cart drawer, detailed product modals with color/size pickers, customer checkout flow, and Lucide React icons.",
+      techStack: ["React 18", "Vite", "React Router 7", "Lucide React", "Context API"],
       demoUrl: "#",
       githubUrl: "#"
     },
     {
-      id: "project-3",
-      title: "Dynamic Interactive Navigation System",
-      category: "uiux",
-      categoryLabel: "UI/UX & Components",
-      filterClass: "filter-uiux",
-      image: "assets/img/portfolio/screencapture-127-0-0-1-5500-nav-html-2026-03-04-11_20_11.png",
-      tagline: "Multi-Level Responsive Header with Smooth State Transitions",
-      description: "An advanced navigation component architecture supporting multi-tier dropdown menus, responsive off-canvas drawer for mobile, search bar triggers, and keyboard accessibility.",
-      techStack: ["CSS Animations", "JavaScript DOM", "Accessible HTML"],
+      id: "project-solara",
+      title: "SOLARA — Luxury Sunglasses Atelier",
+      category: "luxury",
+      categoryLabel: "Luxury Eyewear & UI/UX",
+      filterClass: "filter-luxury",
+      image: "assets/img/portfolio/project-solara.jpg",
+      tagline: "High-Fashion Handcrafted Eyewear Boutique & Concierge",
+      description: "Bespoke luxury eyewear digital flagship featuring handcrafted Italian bio-acetate frames and Japanese titanium optics. Includes custom frame material selection, polarized lens specifications, boutique shopping cart, VIP concierge, and high-fashion editorial styling.",
+      techStack: ["HTML5", "Modern CSS3", "JavaScript ES6+", "Responsive Architecture"],
       demoUrl: "#",
       githubUrl: "#"
     },
     {
-      id: "project-4",
-      title: "Multimedia Player & Streaming Interface",
-      category: "apps",
-      categoryLabel: "Web Applications",
-      filterClass: "filter-apps",
-      image: "assets/img/portfolio/screencapture-127-0-0-1-5500-mm-html-2026-03-04-11_20_26.png",
-      tagline: "Custom Audio/Video Dashboard with Dark Mode Aesthetic",
-      description: "An immersive multimedia dashboard featuring custom audio/video player controls, interactive playlists, volume dials, progress scrubbers, and sleek dark neon visualization.",
-      techStack: ["JavaScript Audio API", "CSS Flexbox", "Bootstrap Icons"],
-      demoUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      id: "project-5",
-      title: "Enterprise Multi-Section Portal Layout",
-      category: "ecommerce",
-      categoryLabel: "E-Commerce & SaaS",
-      filterClass: "filter-ecommerce",
-      image: "assets/img/portfolio/screencapture-127-0-0-1-5500-longlayout-html-2026-03-04-11_20_47.png",
-      tagline: "Full-Length Scalable Web Layout with Sticky Navigation",
-      description: "A complex multi-section web portal layout designed for large content sets, featuring sticky side navigation, section scrolling spy, card grids, and responsive data tables.",
-      techStack: ["CSS Grid & Flex", "ScrollSpy", "HTML5 Semantic"],
-      demoUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      id: "project-6",
-      title: "Interactive Client Showcase Demo",
-      category: "uiux",
-      categoryLabel: "UI/UX & Components",
-      filterClass: "filter-uiux",
-      image: "assets/img/portfolio/screencapture-127-0-0-1-5500-demo-html-2026-03-04-11_23_34.png",
-      tagline: "High-Fidelity Component Prototype with Real-Time Updates",
-      description: "A production-grade client showcase showcasing stateful UI elements, interactive modals, tabs, form validations, and smooth visual feedback on every user action.",
-      techStack: ["JavaScript ES6", "Bootstrap 5", "CSS3 Transitions"],
-      demoUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      id: "project-7",
-      title: "CSS Box Model & Layout Architecture Visualizer",
-      category: "uiux",
-      categoryLabel: "UI/UX & Components",
-      filterClass: "filter-uiux",
-      image: "assets/img/portfolio/screencapture-127-0-0-1-5500-boxmodel-html-2026-03-04-11_24_11.png",
-      tagline: "Educational Deep-Dive Visualizer for CSS Box Sizing & Margins",
-      description: "An educational visualizer that demonstrates margin, border, padding, and content dimensions dynamically, serving as a master demonstration of CSS box-model mechanics.",
-      techStack: ["CSS Box Model", "DOM Manipulation", "Visual Diagrams"],
+      id: "project-crud",
+      title: "Shopping Hub — REST API CRUD Application",
+      category: "crud",
+      categoryLabel: "CRUD & REST API",
+      filterClass: "filter-crud",
+      image: "assets/img/portfolio/project-crud.jpg",
+      tagline: "Complete RESTful CRUD Platform with Axios & DummyJSON API",
+      description: "Full-stack style CRUD web application powered by React 19, Axios, and Bootstrap 5. Features real-time API data fetching, Create new products via modal form, Read/filter items, Delete records with live state updates, responsive dark/light mode, and live cart counter.",
+      techStack: ["React 19", "Axios", "REST API", "Bootstrap 5.3", "React Router 7"],
       demoUrl: "#",
       githubUrl: "#"
     }
@@ -195,14 +155,19 @@ const PORTFOLIO_CONFIG = {
   // ------------------------------------------------------------------
   services: [
     {
-      title: "Responsive Web Development",
+      title: "Next.js & React Web Applications",
       icon: "bi-laptop",
-      description: "Building fast, cross-browser compatible, and mobile-first websites utilizing semantic HTML5, modern CSS3, and modern JavaScript."
+      description: "Building fast, SEO-friendly, and scalable web apps using Next.js App Router, React 18/19, TypeScript, and modern component architecture."
+    },
+    {
+      title: "RESTful API Integration & Full CRUD",
+      icon: "bi-database-check",
+      description: "Connecting web frontends to backend APIs using Axios and Fetch. Implementing robust Create, Read, Update, and Delete operations with validation."
     },
     {
       title: "Interactive 3D Web & Animations",
       icon: "bi-box",
-      description: "Crafting engaging 3D scenes using Three.js and WebGL, integrated with GSAP ScrollTrigger for cinematic scroll-driven storytelling."
+      description: "Crafting captivating 3D web scenes with Three.js and WebGL, enriched with GSAP ScrollTrigger for cinematic scroll-driven storytelling."
     },
     {
       title: "Tailwind CSS & Modern UI Systems",
@@ -210,19 +175,14 @@ const PORTFOLIO_CONFIG = {
       description: "Designing sleek, consistent UI components and design systems with Tailwind CSS, Bootstrap 5, and custom design tokens."
     },
     {
-      title: "Frontend Optimization & Speed",
+      title: "E-Commerce & Commercial Portals",
+      icon: "bi-cart-check",
+      description: "Architecting high-converting online stores, product catalogs, shopping carts, and client portal authentication gateways."
+    },
+    {
+      title: "Frontend Optimization & Speed Tuning",
       icon: "bi-speedometer2",
-      description: "Auditing and optimizing Core Web Vitals, asset compression, lazy loading, and rendering performance for smooth 60 FPS experiences."
-    },
-    {
-      title: "UI/UX Prototyping & Figma to Code",
-      icon: "bi-layers",
-      description: "Transforming design prototypes and ideas into pixel-perfect, clean, accessible, and maintainable production-ready web interfaces."
-    },
-    {
-      title: "Website Redesign & Modernization",
-      icon: "bi-arrow-repeat",
-      description: "Revamping outdated websites into cutting-edge, high-conversion, professional portfolios and business applications."
+      description: "Auditing and optimizing Core Web Vitals, asset compression, lazy loading, and rendering performance for butter-smooth 60 FPS experiences."
     }
   ],
 
